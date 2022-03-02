@@ -1,5 +1,6 @@
 body {
     background-color: white;
+
 }
 /* .nvbrtop1 {
     background-color: #ff0066;
@@ -13,9 +14,6 @@ body {
     text-decoration: none;
     color: white;
     font-weight: bold;
-}
-.nvbrlink1:hover {
-    color: black;
 }
 
 .cntnr1 {
@@ -41,6 +39,63 @@ body {
     padding: 0px;
 } */
 
+
+/* 4 MENU UTAMA START*/
+.cntnr1a {
+    max-width: 900px;
+    /* border: 5px solid #333; */
+    margin: 30px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cntnr1a img {
+    width: 50%;
+    height: 50%;
+    padding: 2px;
+    /* border-radius: 10px; */
+}
+.cntnr1a:hover {
+
+}
+/* 4 MENU UTAMA END */
+
+
+
+
+/* 4 MENU UTAMA START*/
+.cntnr1a2 {
+    max-width: 900px;
+    /* border: 5px solid #333; */
+    margin: 30px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cntnr1a2 a {
+    width: 50%;
+    height: 50%;
+    padding: 5px;
+}
+
+.cntnr1a2 a img {
+    /* border-radius: 10px; */
+}
+
+.cntnr1a2 .cntnr1a2-button {
+    max-width: 200px;
+    /* border: 5px solid #333; */
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* 4 MENU UTAMA END */
+
 /* 333 */
 
 /* 4 MENU UTAMA START*/
@@ -58,6 +113,10 @@ body {
     width: 25%;
     height: 25%;
     padding: 5px;
+}
+.cntnr1a3 a img {
+    border: 1px solid #333;
+    box-shadow: 2px 2px 2px 2px #888888;
 }
 
 .cntnr1a3 .cntnr1a3-button {
@@ -92,7 +151,7 @@ body {
 }
 .cntnr1a3 a:hover img {
 	opacity: .6;
-    border-radius: 15px;
+    border-radius: 10px;
     -webkit-transform: scale (0.99);
 	transform: scale (0.99);
 }
@@ -154,4 +213,3 @@ body {
     padding: 10px;
     color: white;
 }
-
